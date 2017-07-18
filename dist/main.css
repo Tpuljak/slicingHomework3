@@ -395,6 +395,93 @@ template {
 [hidden] {
   display: none; }
 
+.general__section {
+  background-image: url("/images/national-programs-background.jpg");
+  background-position: center center; }
+
+.general__content {
+  margin: 0 auto;
+  padding: 20px; }
+
+.general__program-icon {
+  height: 50px;
+  width: 50px;
+  margin-left: 30px;
+  margin-top: 20px;
+  float: left; }
+
+.general__program-title {
+  margin-left: 50px;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%); }
+
+.general__programs-title {
+  color: white;
+  margin-bottom: 10px;
+  font-style: italic;
+  text-transform: none; }
+
+.general__programs {
+  width: 450px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  float: left;
+  font-weight: bold;
+  font-size: 16px;
+  color: #414142; }
+
+.general__title {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px; }
+
+.general__programs > :nth-child(2) {
+  border-top-style: solid;
+  border-top-color: white;
+  -webkit-border-top-left-radius: 5px;
+     -moz-border-radius-topleft: 5px;
+          border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+     -moz-border-radius-topright: 5px;
+          border-top-right-radius: 5px; }
+
+.general__programs > :nth-child(5) {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  -webkit-border-bottom-left-radius: 5px;
+     -moz-border-radius-bottomleft: 5px;
+          border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+     -moz-border-radius-bottomright: 5px;
+          border-bottom-right-radius: 5px; }
+
+.general__program {
+  background-color: white;
+  max-width: 450px;
+  height: 95px;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3); }
+
+.general__description {
+  margin: 130px 50px 0px 0px;
+  max-width: 500px;
+  overflow: hidden;
+  color: white;
+  float: right; }
+
+.general__text {
+  line-height: 28px; }
+
 .clearfix:after {
   content: " ";
   display: block;
@@ -405,5 +492,14 @@ template {
      -moz-box-sizing: border-box;
           box-sizing: border-box; }
 
-p {
-  color: red; }
+body {
+  font-family: 'Open Sans'; }
+
+html {
+  font-size: 100%; }
+
+.container {
+  max-width: 1250px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: hidden; }
